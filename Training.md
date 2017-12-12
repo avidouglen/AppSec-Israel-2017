@@ -11,7 +11,7 @@ This is a hands-on, crash course in application security for developers, QA engi
 The Training Day is free to attend, however [registration is required](Register). 
 
 **Date:** October 17, 2017  
-**Time:** 9:00am - 5:00pm   
+**Time:** 9:00am - 5:30pm   
 **Location:** [College of Management in Rishon](Location).
 
 ### What is this Training about? 
@@ -26,7 +26,7 @@ This crash course trains the participants in the basic toolset, in penetration t
 It will cover the methodologies, common toolsets and over 7+ different high impact attack vectors, as well as the   
 code-level techniques required to mitigate these attacks.
 
-#### Goals   
+### Goals   
 
 The Training aims to introduce the audience into the field of **application-level attacks** and **white-hat hacking   
 methodologies**, as well as the corresponding **secure coding best-practices**, and provide the basic tools, understanding   
@@ -35,19 +35,24 @@ and processes required for assessing the security of modern web applications.
 It's aim is to enable trainees get the initial understanding and hands-on skills required to find their path in the appsec field,   
 whether as an appsec professional or as a developer of secure, resilient, and robust code. 
 
-The course will train the participants to identify several common AND critical vulnerabilities, 
-as well as mitigate these vulnerabilities in the application code.
-
 --- 
 
-#### Requirements   
+### Requirements   
 
-- Personal Laptop (any modern OS)
-- Software: Modern web browser (e.g. Chrome, Firefox); OWASP ZAP Proxy
+Personal Laptop (any modern OS) with the following software downloaded and installed in advance: 
+
+- Modern web browser (e.g. Chrome, Firefox)
+- Java [JDK 1.8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Tomcat 8](https://tomcat.apache.org/download-80.cgi)
+- [OWASP ZAP Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
+- [OWASP WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
+
+Don't forget your laptop charger (electric sockets will be available).   
+It is also recommended to bring a paper notebook and pen. 
 
 ---
 
-#### Schedule   
+### Schedule   
 
 The Training day will commence at 9:00. 
 We will have a lunch break between 12:30-14:00.   
@@ -56,6 +61,29 @@ Alternatively, you are welcome to pack your own lunch.
 We are scheduled to complete the training by 17:30.  
 
 Coffee and cold drinks will be provided throughout the day, as well as an afternoon snack break.   
+
+---
+
+### Tower Attack & Defense
+
+The course will train the participants to identify several common AND critical vulnerabilities, 
+as well as mitigate these vulnerabilities in the application code.   
+The subjects covered will include the following:
+
+- Web Application Hacking Basics and Toolset, with live hacking demo
+- Logical Attacks and Mitigation
+  - Forced Browsing Attacks
+  - Authentication Bypass and Authorization Bypass
+  - Process Flow Bypass
+  - Parameter Manipulations
+- Inclusion Attacks and Mitigation
+  - Path Traversal and Local File Inclusion (LFI) Attacks
+  - Path Traversal
+  - Remote File Inclusion (RFI) Attacks
+  - Server Side Request Forgery (SSRF) Attacks
+- Injection & Reflection Attacks and Mitigation
+  - SQL Injection
+  - Stored / Reflected XSS
 
 ---
 
